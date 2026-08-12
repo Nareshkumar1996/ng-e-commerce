@@ -4,12 +4,11 @@
   justify-content: center;
   align-items: center;
   background: #f4f6f8;
-  padding: 30px 0;
 }
 
 .register-card {
-  width: 450px;
-  padding: 35px;
+  width: 400px;
+  padding: 30px;
   background: white;
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
@@ -17,57 +16,45 @@
 
 .register-card h2 {
   text-align: center;
-  margin-bottom: 8px;
-  font-size: 28px;
+  margin-bottom: 5px;
 }
 
 .subtitle {
   text-align: center;
   color: #777;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .form-group {
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 
 .form-group label {
   display: block;
-  margin-bottom: 7px;
+  margin-bottom: 6px;
   font-weight: 600;
 }
 
-.form-group input[type="text"],
-.form-group input[type="tel"],
-.form-group input[type="password"] {
+.form-group input,
+.form-group select {
   width: 100%;
-  padding: 12px;
-  box-sizing: border-box;
+  padding: 11px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  font-size: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
 }
 
-.form-group input:focus {
+.form-group input:focus,
+.form-group select:focus {
   outline: none;
   border-color: #1976d2;
 }
 
-.gender-options {
-  display: flex;
-  gap: 20px;
-}
-
-.radio-option {
-  display: flex !important;
-  align-items: center;
-  gap: 5px;
-  font-weight: normal !important;
-  cursor: pointer;
-}
-
-.radio-option input {
-  cursor: pointer;
+.error {
+  color: #d32f2f;
+  font-size: 12px;
+  margin-top: 5px;
 }
 
 .register-btn {
@@ -83,16 +70,4 @@
 
 .register-btn:hover {
   background: #125ca1;
-}
-
-.login-text {
-  text-align: center;
-  margin-top: 20px;
-  color: #666;
-}
-
-.login-text a {
-  color: #1976d2;
-  text-decoration: none;
-  font-weight: 600;
 }
