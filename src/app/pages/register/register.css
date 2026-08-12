@@ -57,6 +57,12 @@
   margin-top: 5px;
 }
 
+.login-text a {
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: 600;
+}
+
 .register-btn {
   width: 100%;
   padding: 12px;
